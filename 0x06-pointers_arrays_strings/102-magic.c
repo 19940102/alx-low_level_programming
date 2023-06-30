@@ -21,7 +21,7 @@ int main(void)
   printf("a[1] = %p\n", &a[1]);
   printf("a[2] = %p\n", &a[2]);
   printf("p    = %p\n", (p + 5));
-  printf("a[2] = %p\n", &a[3]);
+  printf("a[2] = %p\n", &a[3]):;
   *(p + 5) = 98;
   /* ...so that this prints 98\n */
   printf("a[2] = %d\n", a[2]);
